@@ -1,0 +1,18 @@
+package myPractice;
+
+class Practice2 {
+	
+	public static void main(String[] args) {
+		int num1 = 35;
+		int num2 = 55;
+		Practice2 obj = new Practice2();
+		int result = Practice2.addNumbers(num1,num2);
+		System.out.println("Sum is : " + result);
+	}
+	
+	public static int addNumbers(int a, int b) {
+		int sum = a+b;
+		return sum;
+	}
+
+}
